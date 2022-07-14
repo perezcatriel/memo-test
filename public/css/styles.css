@@ -2,6 +2,8 @@ body,
 html {
 	height: 80%;
 	background-image: url("../../assets/images/fondo.jpeg");
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
 }
 
 .completo {
