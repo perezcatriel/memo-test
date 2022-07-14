@@ -84,27 +84,3 @@ function evaluarFinDeJuego() {
 }
 
 configurarJuego();
-
-/* 
-function mostrar(el) {
-	el.style.opacity = "1";
-
-	console.log(el.id);
-
-	if (primero === null) {
-		primero = el;
-	} else if (primero.src === el.src) {
-		setTimeout(() => {
-			primero.style.visibility = "hidden";
-			el.style.visibility = "hidden";
-		}, 1000);
-
-		console.log(el);
-	} else if (primero.src !== el.src) {
-		setTimeout(() => {
-			el.style.opacity = "0";
-			primero.style.opacity = "0";
-			primero = null;
-		}, 1000);
-	}
-} */
